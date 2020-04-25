@@ -1,0 +1,48 @@
+#id0{
+	width: 300px;
+	height: auto;
+}
+#id1{
+	width: 500px;
+	height: auto;
+}
+#id2{
+	width: 100px;
+	height: auto;
+}
+input{
+	margin: 5px;
+	width: 180px;
+	box-sizing: border-box;
+}
+
+button{
+	padding: 8px 20px 7px 30px;
+	margin: 5px;
+	font-style: oblique;
+	font-family: fantasy;
+	color: #5114dc;
+	border-radius: 10px;
+	background-repeat: no-repeat;
+	background-size: 20px;
+	background-position: 5px center;
+}
+button:hover{
+	background-color: #deb1f5;
+}
+
+.class1{
+    background-image: url("name.png");
+}
+
+.class2{
+    background-image: url("have.png");
+}
+
+.class3{
+    background-image: url("reset.png");
+}
+
+.class4{
+    background-image: url("show.png");
+}

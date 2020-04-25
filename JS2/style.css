@@ -1,0 +1,38 @@
+td {
+    border: 1px solid black;
+}
+
+textarea{
+    border: 1px solid black;
+}
+
+.add{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 3px;
+    background-color: rgb(124, 194, 233);
+    text-align: center;
+}
+
+.functions {
+    display: inline-block;
+    padding: 3px;
+    background-color: rgb(124, 194, 233);
+}
+
+.hidden{
+    display: none;
+}
+
+.functions>div{
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 200px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: auto;
+}

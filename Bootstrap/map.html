@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Maps</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <ul class="nav justify-content-center">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Главная</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="task.html">Задание</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-light" href="map.html">Карты</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown">Дополнительные ссылки</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="https://www.google.ru/" target="_blank">Google</a>
+                            <a class="dropdown-item" href="https://bootstrap-4.ru/docs/4.4/components/navs/" target="_blank">Навигация Bootstrap</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacts.html">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="d-flex justify-content-center align-items-center ">
+        <div class="container d-flex  flex-column justify-content-center align-items-center">
+            <h1 class="mb-4">Карты</h1>
+            <div id="map justify-content-center align-items-center">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d153605.56940145697!2d158.523482377593!3d53.01879860856121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x58e199fa624a92cd%3A0x130f471bcd14a21!2z0J_QtdGC0YDQvtC_0LDQstC70L7QstGB0Lot0JrQsNC80YfQsNGC0YHQutC40LksINCa0LDQvNGH0LDRgtGB0LrQuNC5INC60YDQsNC5!5e0!3m2!1sru!2sru!4v1587921479524!5m2!1sru!2sru" width="800" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <script
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDkLTwJmvmgrKl6XplSZdN0WyBlvudUvnI&callback=initMap"
+                async defer></script>
+        </div>
+
+    </main>
+    <footer class="navbar align-items-center justify-content-center">
+        Жданова Мария Вячеславовна N3456, Университет ИТМО, 2020 г.
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
